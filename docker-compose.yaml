@@ -1,0 +1,13 @@
+services:
+  efw:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    cap_add:
+      - NET_ADMIN
+  debian:
+    build:
+      context: .
+      dockerfile: debian.Dockerfile
