@@ -20,7 +20,6 @@ func (e *EFW) Sync() error {
 	// this function should load the firewall rules from this endpoint: https://app.staging.enclave.aws.sidechannel.com/cdn/storage/public_files/ogZM5tWyhkBJ87Xpo/original/ogZM5tWyhkBJ87Xpo.json
 	fmt.Println("TODO implement EFW.Sync()")
 
-	// should load the firewall rules from this JSON file
 	// use the RulesResponse struct to unmarshal the JSON data
 
 	// next apply the rules to nftables using the appropriate library
