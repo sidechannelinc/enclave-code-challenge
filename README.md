@@ -18,17 +18,17 @@ go build -o efw ./cmd/efw/
 ### Usage
 1. Clone the repository:
 2. Run the docker compose command to start the application:
-   ```bash
-   docker compose up
-   ```
+```bash
+docker compose up
+```
 3. Open a new terminal exec into the running container:
-   ```bash
-    docker compose exec -it efw /bin/bash
-  ```
+```bash
+docker compose exec -it efw /bin/bash
+```
 4. Run the `efw` command to see the available commands:
-   ```bash
-   efw help
-   ```
+```bash
+efw help
+```
 
 ### Developing
 The container is set to automatically rebuild when you make changes to the code. It automatically runs the `efw status` command on a rebuild. You can run the `efw` command directly to test your changes. Refernce the `Dockerfile` for information on how the container is built and where the output binary is built to.
