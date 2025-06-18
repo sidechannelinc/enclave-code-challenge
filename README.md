@@ -5,6 +5,16 @@ This respository contains the code for the Enclave code challenge. The code chal
 - Docker
 - Docker Compose
 
+** If you don't have a system that supports capabilities (i.e Windows), you can choose to run/build the binary manually on your system with go 1.24.3 installed. Build the run/build with the command:
+```
+go run ./cmd/efw/ sync
+```
+```bash
+go build -o efw ./cmd/efw/
+
+./efw sync
+```
+
 ### Usage
 1. Clone the repository:
 2. Run the docker compose command to start the application:
