@@ -3,8 +3,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    # mount the current directory to /app in the container
     volumes:
       - ./:/app
+    # cap abilities to allow network management
+    # this is necessary for modifying nftables
     cap_add:
       - NET_ADMIN
   debian:
