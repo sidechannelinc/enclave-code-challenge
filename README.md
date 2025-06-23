@@ -82,7 +82,7 @@ Another `debian` container is provided in the `docker-compose.yml` file. Both co
 - [nftables documentation](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)
 - [tour of go](https://go.dev/tour/welcome/1)
 - [docker documentation](https://docs.docker.com/get-started/)
-- [nftables golang](github.com/google/nftables)
+- [nftables golang](https://pkg.go.dev/github.com/google/nftables#section-readme)
 - [JSON ruleset](https://app.staging.enclave.aws.sidechannel.com/cdn/storage/public_files/ogZM5tWyhkBJ87Xpo/original/ogZM5tWyhkBJ87Xpo.json)
 
 ### Helpful commands:
